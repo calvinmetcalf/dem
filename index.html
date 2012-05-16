@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
+	<title>Demographics</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -18,12 +18,16 @@
 	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>
 <body>
-<header>
-
+<header class="navbar navbar-fixed-top"><div class="navbar-inner">
+        <div class="container-fluid"><ul class="nav">
+<li><div class="btn-group">
+          <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">Success <span class="caret"></span></button>
+         
+        </div></li></ul></div></div>
 </header>
-<div role="main">
-<table class="tablesorter">
-    <thead>
+<div role="main" class="container-fluid">
+<table class="tablesorter table table-bordered table-striped">
+    <thead class="headr">
         <tr>
         <th>Town</th>
         <th>County</th>
@@ -50,6 +54,7 @@
 
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
 <script>
 	var _gaq=[['_setAccount','UA-31218444-1'],['_trackPageview']];
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
